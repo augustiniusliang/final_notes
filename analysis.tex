@@ -200,6 +200,12 @@
         \int_{-\infty}^{\infty} e^{-x^2} \, dx, \quad \int_{-\infty}^{\infty} x^{2n} e^{-x^2} \, dx.
     \]
 \end{problem}
+\begin{problem}
+    计算以下反常积分:
+    \[
+        \int_0^{\infty} \frac{dx}{(1+x^2)^n}, \quad \int_0^{\infty} \frac{dx}{(x^2 + ax + b)^n} (4b > a^2).
+    \]
+\end{problem}
 \subsection{* Mobius 变换与有理函数的积分: 倒代换与等域变换. }
 \begin{problem}
     计算以下反常积分:
@@ -230,11 +236,23 @@
 
 \subsection{中值定理与积分不等式}
 \subsection{Cauchy 不等式. Young 不等式. Holder 不等式}
-
+\begin{problem}
+    对于 满足 $f(0) = f(1) = 0$ 的 $C^1[0,1]$ 函数 $ f(x) $, 证明:
+    \[
+        \left( \int_0^1 xf(x) \, dx \right)^2 \leq \frac{1}{45} \int_0^1 (f'(x))^2 \, dx.
+    \]
+\end{problem}
 \subsection{Jensen 不等式}
 \begin{problem}
     证明: 对于 $\int_a^b p(x) = 1,$ 对于任意 $f(x)>0 (x\in[a,b])$ 有
     $$\exp\left(\int_a^b p(x) \ln f(x) \, dx\right) \leq \int_a^b p(x) f(x) \, dx\leq \ln(\int_a^b p(x) \exp(f(x)) \, dx).$$
+\end{problem}
+\begin{problem}
+    证明: 对于下凸函数 $f(x)$, 有
+    \[
+        f\left(\int_a^b p(x)  \, dx\right) \leq \int_a^b f(p(x)) \, dx.
+    \]
+    特别的, 取 $p(x) = x^n,$ 得到什么结果?
 \end{problem}
 \subsection{中值定理与 Taylor 公式. *Darboux 公式}
 \begin{problem}
